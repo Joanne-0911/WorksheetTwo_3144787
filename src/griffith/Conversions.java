@@ -4,12 +4,12 @@ public class Conversions {
 
     // Convert Euro to Dollar
     public static double euroToDollar(double euro) {
-        return 0; // Stub
+    	return euro * 1.1; // Stub
     }
 
     // Convert Dollar to Euro
     public static double dollarToEuro(double dollar) {
-        return 0; // Stub
+    	return dollar * 0.91; // Stub
     }
 
     // Convert String to Integer
@@ -23,7 +23,7 @@ public class Conversions {
     }
 
     // Switch case of a given string (uppercase to lowercase and vice versa)
-    public String switchCase(String input) {
+    public static String switchCase(String input) {
         return ""; // Stub
     }
 }
