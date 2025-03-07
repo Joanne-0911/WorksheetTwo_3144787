@@ -8,7 +8,7 @@ public class Conversions {
     }
 
     // Convert Dollar to Euro
-    public double dollarToEuro(double dollar) {
+    public static double dollarToEuro(double dollar) {
         return 0; // Stub
     }
 
