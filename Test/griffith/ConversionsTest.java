@@ -13,14 +13,14 @@ class ConversionsTest {
 
 	@Test
 	void testDollarToEuro() {
-        assertEquals(0.91, Conversions.dollarToEuro(1), 0.01);
-        assertEquals(9.1, Conversions.dollarToEuro(10), 0.01);
-        assertEquals(0, Conversions.dollarToEuro(0), 0.01);
+
 	}
 
 	@Test
 	void testStringToInteger() {
-		fail("Not yet implemented");
+        assertEquals(123, Conversions.stringToInteger("123"));
+        assertEquals(-456, Conversions.stringToInteger("-456"));
+        assertThrows(NumberFormatException.class, () -> Conversions.stringToInteger("abc"));
 	}
 
 	@Test

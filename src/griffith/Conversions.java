@@ -13,7 +13,7 @@ public class Conversions {
     }
 
     // Convert String to Integer
-    public int stringToInteger(String val) {
+    public static int stringToInteger(String val) {
         return 0; // Stub
     }
 
