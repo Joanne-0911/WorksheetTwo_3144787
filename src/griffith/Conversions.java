@@ -18,7 +18,7 @@ public class Conversions {
     }
 
     // Convert Integer to String
-    public String integerToString(int val) {
+    public static String integerToString(int val) {
         return ""; // Stub
     }
 

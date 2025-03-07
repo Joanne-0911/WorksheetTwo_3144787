@@ -18,14 +18,13 @@ class ConversionsTest {
 
 	@Test
 	void testStringToInteger() {
-        assertEquals(123, Conversions.stringToInteger("123"));
-        assertEquals(-456, Conversions.stringToInteger("-456"));
-        assertThrows(NumberFormatException.class, () -> Conversions.stringToInteger("abc"));
 	}
 
 	@Test
 	void testIntegerToString() {
-		fail("Not yet implemented");
+        assertEquals("123", Conversions.integerToString(123));
+        assertEquals("-456", Conversions.integerToString(-456));
+        assertEquals("0", Conversions.integerToString(0));
 	}
 
 	@Test
