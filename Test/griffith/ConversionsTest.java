@@ -39,6 +39,10 @@ class ConversionsTest {
 
 	@Test
 	void testSwitchCase() {
+        assertEquals("hELLO wORLD", Conversions.switchCase("Hello World"));
+        assertEquals("jAvA", Conversions.switchCase("JaVa"));
+        assertEquals("", Conversions.switchCase(""));
+
 
 	}
 
