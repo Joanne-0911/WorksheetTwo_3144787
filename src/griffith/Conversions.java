@@ -14,12 +14,12 @@ public class Conversions {
 
     // Convert String to Integer
     public static int stringToInteger(String val) {
-        return 0; // Stub
+    	return Integer.parseInt(val); // Stub
     }
 
     // Convert Integer to String
     public static String integerToString(int val) {
-        return ""; // Stub
+    	return String.valueOf(val); // Stub
     }
 
     // Switch case of a given string (uppercase to lowercase and vice versa)
