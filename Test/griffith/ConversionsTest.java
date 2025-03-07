@@ -8,7 +8,9 @@ class ConversionsTest {
 
 	@Test
 	void testEuroToDollar() {
-		fail("Not yet implemented");
+        assertEquals(1.1, Conversions.euroToDollar(1), 0.01);
+        assertEquals(11, Conversions.euroToDollar(10), 0.01);
+        assertEquals(0, Conversions.euroToDollar(0), 0.01);
 	}
 
 	@Test
